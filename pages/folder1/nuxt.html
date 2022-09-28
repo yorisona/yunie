@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nuxt.js 是什么？ | 羽涅</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/yunie/egg.png">
+    <meta name="description" content="羽涅的前端记录">
+    
+    <link rel="preload" href="/yunie/assets/css/0.styles.905a1a3c.css" as="style"><link rel="preload" href="/yunie/assets/js/app.c3f40dae.js" as="script"><link rel="preload" href="/yunie/assets/js/2.f9a2f6ad.js" as="script"><link rel="preload" href="/yunie/assets/js/11.febae0b0.js" as="script"><link rel="prefetch" href="/yunie/assets/js/10.123f233e.js"><link rel="prefetch" href="/yunie/assets/js/12.b0a3ce5f.js"><link rel="prefetch" href="/yunie/assets/js/13.0265e49e.js"><link rel="prefetch" href="/yunie/assets/js/14.5166b356.js"><link rel="prefetch" href="/yunie/assets/js/3.d49d866b.js"><link rel="prefetch" href="/yunie/assets/js/4.d1454e0e.js"><link rel="prefetch" href="/yunie/assets/js/5.01a3f711.js"><link rel="prefetch" href="/yunie/assets/js/6.d690d4b2.js"><link rel="prefetch" href="/yunie/assets/js/7.a442039d.js"><link rel="prefetch" href="/yunie/assets/js/8.0f5c24f2.js"><link rel="prefetch" href="/yunie/assets/js/9.abb7d035.js">
+    <link rel="stylesheet" href="/yunie/assets/css/0.styles.905a1a3c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yunie/" class="home-link router-link-active"><img src="/yunie/egg.png" alt="羽涅" class="logo"> <span class="site-name can-hide">羽涅</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/yunie/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/yunie/pages/folder1/nuxt.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  文章
+</a></li><li class="dropdown-item"><!----> <a href="/yunie/pages/folder2/test4.html" class="nav-link">
+  琐碎
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yorisona" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/yunie/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/yunie/pages/folder1/nuxt.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  文章
+</a></li><li class="dropdown-item"><!----> <a href="/yunie/pages/folder2/test4.html" class="nav-link">
+  琐碎
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yorisona" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>关于Nuxt</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yunie/pages/folder1/nuxt.html" aria-current="page" class="active sidebar-link">Nuxt</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#nuxt-js-是什么" class="sidebar-link">Nuxt.js 是什么？</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#布局" class="sidebar-link">布局</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#生命周期" class="sidebar-link">生命周期</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#路由" class="sidebar-link">路由</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#插件" class="sidebar-link">插件</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#模块" class="sidebar-link">模块</a></li><li class="sidebar-sub-header"><a href="/yunie/pages/folder1/nuxt.html#nuxt-流程总结" class="sidebar-link">nuxt 流程总结</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>关于一些好用的库or技巧</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yunie/pages/folder1/easyToUseLibraryOrSkills.html" class="sidebar-link">easyToUseLibraryOrSkills</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>关于css</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yunie/pages/folder1/windiCss.html" class="sidebar-link">windiCss</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="nuxt-js-是什么"><a href="#nuxt-js-是什么" class="header-anchor">#</a> Nuxt.js 是什么？</h2> <blockquote><p><strong>Nuxt.js 是一个基于 Vue.js 的通用应用框架。</strong>
+一个基于 Vue.js 的服务端渲染应用框架
+SSR，即服务器渲染，就是在服务器端将对 Vue 页面进行渲染生成 html 文件，将 html 页面传递给浏览器。SSR 两个优点：</p></blockquote> <div class="language- extra-class"><pre><code>SEO不同于SPA的HTML只有一个无实际内容的HTML和一个app.js，SSR生成的HTML是有内容的，这让搜索引擎能够索引到页面内容。
+
+更快内容到达时间，传统的SPA应用是将bundle.js从服务器获取，然后在客户端解析并挂载到dom。而SSR直接讲HTML字符串传递给浏览器。大大加快了首屏加载时间。
+</code></pre></div><h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <p>为了快速入门，Nuxt.js 团队创建了脚手架工具 create-nuxt-app。
+<code>yarn create nuxt-app &lt;项目名&gt;</code></p> <h3 id="nuxt-目录结构"><a href="#nuxt-目录结构" class="header-anchor">#</a> Nuxt 目录结构</h3> <p>|-- .nuxt // Nuxt 自动生成，临时的用于编辑的文件，build</p> <p>|-- assets // 用于组织未编译的静态资源入 LESS、SASS 或 JavaScript</p> <p>|-- components // 用于自己编写的 Vue 组件，比如滚动组件，日历组件，分页组件</p> <p>|-- layouts // 布局目录，用于组织应用的布局组件，不可更改。</p> <p>|-- middleware // 用于存放中间件</p> <p>|-- pages // 用于存放写的页面，我们主要的工作区域</p> <p>|-- plugins // 用于存放 JavaScript 插件的地方</p> <p>|-- static // 用于存放静态资源文件，比如图片</p> <p>|-- store // 用于组织应用的 Vuex 状态管理。</p> <p>|-- .editorconfig // 开发工具格式配置</p> <p>|-- .eslintrc.js // ESLint 的配置文件，用于检查代码格式</p> <p>|-- .gitignore // 配置 git 不上传的文件</p> <p>|-- nuxt.config.json // 用于组织 Nuxt.js 应用的个性化配置，已覆盖默认配置</p> <p>|-- package-lock.json // npm 自动生成，用于帮助 package 的统一性设置的，yarn 也有相同的操作</p> <p>|-- package-lock.json // npm 自动生成，用于帮助 package 的统一性设置的，yarn 也有相同的操作</p> <p>|-- package.json // npm 包管理配置文件
+<img src="https://img-blog.csdnimg.cn/66fdd08e10e44d16b7a85cb795afd201.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Y-q5qWg5ZaD,size_20,color_FFFFFF,t_70,g_se,x_16" alt="image"></p> <h2 id="布局"><a href="#布局" class="header-anchor">#</a> 布局</h2> <h3 id="默认模板"><a href="#默认模板" class="header-anchor">#</a> 默认模板</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;!--[if IE 9]&gt;&lt;html lang=&quot;en-US&quot; class=&quot;lt-ie9 ie9&quot; {{ HTML_ATTRS }}&gt;&lt;![endif]--&gt;
+&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt;&lt;html {{ HTML_ATTRS }}&gt;&lt;!--&lt;![endif]--&gt;
+  &lt;head {{ HEAD_ATTRS }}&gt;
+    {{ HEAD }}
+  &lt;/head&gt;
+  &lt;body {{ BODY_ATTRS }}&gt;
+    {{ APP }}
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="自定义布局"><a href="#自定义布局" class="header-anchor">#</a> 自定义布局</h3> <p>可通过添加 layouts/default.vue 文件来扩展应用的默认布局。
+<strong>layouts 目录中的每个文件 (顶级) 都将创建一个可通过页面组件中的 layout 属性访问的自定义布局。</strong>
+假设我们要创建一个 博客布局 并将其保存到 layouts/blog.vue:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div&gt;
+    &lt;div&gt;我的博客导航栏在这里&lt;/div&gt;
+    &lt;nuxt /&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>然后我们必须告诉页面 (即 pages/posts.vue) 使用您的自定义布局：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;!-- Your template --&gt;
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    layout: 'blog'
+    // page component definitions
+  }
+&lt;/script&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="错误页面"><a href="#错误页面" class="header-anchor">#</a> 错误页面</h3> <p>通过编辑 layouts/error.vue 文件来定制化错误页面.
+虽然此文件放在 layouts 文件夹中, 但应该将它看作是一个 页面(page).
+<strong>这个布局文件不需要包含 <nuxt></nuxt> 标签。你可以把这个布局文件当成是显示应用错误（404，500 等）的组件。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1 v-if=&quot;error.statusCode === 404&quot;&gt;页面不存在&lt;/h1&gt;
+    &lt;h1 v-else&gt;应用发生错误异常&lt;/h1&gt;
+    &lt;nuxt-link to=&quot;/&quot;&gt;首 页&lt;/nuxt-link&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    props: ['error'],
+    layout: 'blog' // 你可以为错误页面指定自定义的布局
+  }
+&lt;/script&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h3 id="页面"><a href="#页面" class="header-anchor">#</a> 页面</h3> <p>页面组件实际上是 Vue 组件，只不过 Nuxt.js 为这些组件添加了一些特殊的配置项（对应 Nuxt.js 提供的功能特性）以便你能快速开发通用应用。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;h1 class=&quot;red&quot;&gt;Hello {{ name }}!&lt;/h1&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    asyncData (context) {
+      // called every time before loading the component
+      return { name: 'World' }
+    },
+    fetch () {
+      // The fetch method is used to fill the store before rendering the page
+    },
+    head () {
+      // Set Meta Tags for this Page
+    },
+    // and more functionality to discover
+    ...
+  }
+&lt;/script&gt;
+
+&lt;style&gt;
+  .red {
+    color: red;
+  }
+&lt;/style&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><p>Nuxt.js 为页面提供的特殊配置项：</p> <table><thead><tr><th>属性名</th> <th>描述</th></tr></thead> <tbody><tr><td>asyncData</td> <td>最重要的一个键, 支持 异步数据处理，另外该方法的第一个参数为当前页面组件的 上下文对象。</td></tr> <tr><td>fetch</td> <td>与 asyncData 方法类似，用于在渲染页面之前获取数据填充应用的状态树（store）。不同的是 fetch 方法不会设置组件的数据。</td></tr> <tr><td>head</td> <td>配置当前页面的 Meta 标签</td></tr> <tr><td>layout</td> <td>指定当前页面使用的布局（layouts 根目录下的布局文件）。</td></tr> <tr><td>loading</td> <td>如果设置为 false，则阻止页面自动调用 this.$nuxt.$loading.finish()和 this.$nuxt.$loading.start(),您可以手动控制它,请看例子,仅适用于在 nuxt.config.js 中设置 loading 的情况下。</td></tr> <tr><td>transition</td> <td>指定页面切换的过渡动效</td></tr> <tr><td>scrollToTop</td> <td>布尔值，默认: false。 用于判定渲染页面前是否需要将当前页面滚动至顶部。这个配置用于 嵌套路由的应用场景。</td></tr> <tr><td>validate</td> <td>校验方法用于校验 动态路由的参数。</td></tr> <tr><td>middleware</td> <td>指定页面的中间件，中间件会在页面渲染之前被调用</td></tr></tbody></table> <h3 id="asyncdata-方法"><a href="#asyncdata-方法" class="header-anchor">#</a> asyncData 方法</h3> <p><strong>asyncData 方法使得你能够在渲染组件之前异步获取数据。限于页面组件每次加载之前被调用。</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>export default {
+  async asyncData({ req, res }) {
+    // 使用 req 和 res
+    if (process.server) {  // 检查是否来自服务端渲染
+      return { host: req.headers.host }
+    }
+
+    return {}
+  }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol><li>第一个参数被设定为当前页面的上下文对象</li> <li>app: 包含所有插件的 Vue 根实例，context.app.$axios 来获取 axios</li> <li>req： Request 对象</li> <li>res: Response 对象</li> <li>isDev: 是否开发者模式</li> <li>route： 路由实例</li> <li>store：Vuex.Store 实例</li> <li>env：nuxt.config.js 中配置的环境变量</li> <li>params、query: route.params、 route.query</li> <li>error: error(params),显示错误信息页面,params 参数应该包含 statusCode 和 message 字段</li></ol> <h3 id="fetch-方法"><a href="#fetch-方法" class="header-anchor">#</a> fetch 方法</h3> <p>fetch 方法用于在渲染页面前填充应用的状态树（store）数据， 与 asyncData 方法类似，不同的是它不会设置组件的数据。
+<strong>如果页面组件设置了 fetch 方法，它会在组件每次加载前被调用（在服务端或切换至目标路由之前）。</strong></p> <blockquote><p>fetch 方法的第一个参数是页面组件的上下文对象 context，我们可以用 fetch 方法来获取数据填充应用的状态树。为了让获取过程可以异步，你需要返回一个 Promise，Nuxt.js 会等这个 promise 完成后再渲染组件。
+<strong>您无法在内部使用 this 获取组件实例，fetch 是在组件初始化之前被调用</strong></p></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;h1&gt;Stars: {{ $store.state.stars }}&lt;/h1&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    async fetch({ store, params }) {
+      let { data } = await axios.get('http://my-api/stars')
+      store.commit('setStars', data)
+    }
+  }
+&lt;/script&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="区别"><a href="#区别" class="header-anchor">#</a> 区别</h3> <p><strong>asyncData 只能用于页面组件，不能用于自定义组件,而 fetch 在任何组件中使用</strong> <img src="https://img-blog.csdnimg.cn/d4a36a1c13354e718944dcc0d99b5c72.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Y-q5qWg5ZaD,size_20,color_FFFFFF,t_70,g_se,x_16" alt="image"></p> <h3 id="上下文对象-context"><a href="#上下文对象-context" class="header-anchor">#</a> 上下文对象(context)</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>function (context) {
+  const {
+    app,
+    store,
+    route,
+    params,
+    query,
+    env,
+    isDev,
+    isHMR,
+    redirect,
+    error,
+    $config
+  } = context
+  // Server-side
+  if (process.server) {
+    const { req, res, beforeNuxtRender } = context
+  }
+  // Client-side
+  if (process.client) {
+    const { from, nuxtState } = context
+  }}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>上下文对象提供额外的参数，帮助开发者更精细的控制应用逻辑。它可以在 nuxt 的以下生命周期函数中获取到，如： asyncData, fetch, middleware 等</p> <h2 id="生命周期"><a href="#生命周期" class="header-anchor">#</a> 生命周期</h2> <h3 id="服务端生命周期"><a href="#服务端生命周期" class="header-anchor">#</a> 服务端生命周期</h3> <blockquote><p>服务端生命周期运行完了之后再运行客户端(跟页面没有关系，每个页面都会执行服务端生命周期)</p></blockquote> <p><strong>1.nuxtServerInit(nuxt 中第一个运行的生命周期)</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 在store(vuex)
+export const  state={
+    token:'tokennnnnn'
+}
+
+export const mutations={
+    setToken(state,token){
+        state.token=token
+    }
+}
+
+export const actions={
+    nuxtServerInit(store,context){
+    // 也是有参数的
+	// 参数1:vuex上下文
+	// 参数2:nuxt上下文
+        console.log('nuxtServerInit');
+        store.commit('setToken','abc123')
+        // 执行setToken之后再打印
+        console.log(store);
+    }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p><strong>2.RouteMiddleware(第二个：中间键，路由导航守卫)</strong>
+全局
+在 nuxt.config.js 文件中的 export default 下</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>  router:{
+    // 定义一个名称
+    middleware:'auth'
+  }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>在项目文件中新建一个文件夹 middleware 中再新建一个对应在配置文件中起的名字(auth)的 js 文件
+项目/middleware/auth.js</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// vuex 路由信息 要跳转的页面 传递的参数 请求头 请求接口返回的数据
+export default function({store,route,redirect,params,req,res}){
+    // 判断是否有token(就是是否登陆了，如果没有就跳转到指定的页面去)
+    let token = store.state.token
+    if(!token){
+        redirect('/list')
+    }
+    console.log('middleware')
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><strong>3.validate() 是用来校验 url 参数符不符合</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>validate({params,query}){
+	// 可以拿到参数信息
+    console.log('validate',params.id);
+    // 如果不返回true就会报错，页面就会跳转到404的页面
+    return true
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>4.asyncData()</strong>
+asyncData 方法会在组件（<strong>限于页面组件</strong>）每次加载之前被调用。它可以在服务端或路由更新之前被调用。在这个方法被调用的时候，第一个参数被设定为当前页面的上下文对象，你可以利用 asyncData 方法来获取数据并返回给当前组件。</p> <p><strong>5.fetch</strong>
+fetch 方法用于在渲染页面前填充应用的状态树（store）数据， 与 asyncData 方法类似，不同的是它不会设置组件的数据。</p> <p>如果页面组件设置了 fetch 方法，它会在组件每次加载前被调用（在服务端或切换至目标路由之前）。</p> <h3 id="服务端和客户端共有的生命周期"><a href="#服务端和客户端共有的生命周期" class="header-anchor">#</a> 服务端和客户端共有的生命周期</h3> <p>beforeCreate
+created</p> <h3 id="客户端生命周期-vue-的生命周期"><a href="#客户端生命周期-vue-的生命周期" class="header-anchor">#</a> 客户端生命周期(Vue 的生命周期)</h3> <h2 id="路由"><a href="#路由" class="header-anchor">#</a> 路由</h2> <p><strong>Nuxt.js 依据 pages 目录结构自动生成 vue-router 模块的路由配置。</strong>
+自动生成基础路由规则</p> <table><thead><tr><th>路径</th> <th>组件位置及其名称</th> <th>规则</th></tr></thead> <tbody><tr><td>/</td> <td>pages/index.vue</td> <td>默认文件 index.vue</td></tr> <tr><td>/user</td> <td>pages/user/index.vue</td> <td>默认文件 index.vue</td></tr> <tr><td>/user/one</td> <td>pages/user/one.vue</td> <td>指定文件</td></tr></tbody></table> <ul><li>pages/user.vue 文件 【优先级高】</li> <li>pages/user/index.vue 文件</li></ul> <h3 id="动态路由"><a href="#动态路由" class="header-anchor">#</a> 动态路由</h3> <ul><li>在 Nuxt.js 里面定义带参数的动态路由，需要创建对应的以下划线作为前缀的 Vue 文件 或 目录。</li></ul> <table><thead><tr><th>路由中路径匹配</th> <th>组件位置及其名</th></tr></thead> <tbody><tr><td>/</td> <td>pages/index.vue</td></tr> <tr><td>/user/:id</td> <td>pages/user/_id.vue</td></tr> <tr><td>/:slug</td> <td>pages/_slug/index.vue</td></tr> <tr><td>/:slug/comments</td> <td>pages/_slug/comments.vue</td></tr></tbody></table> <h3 id="获取路由参数"><a href="#获取路由参数" class="header-anchor">#</a> 获取路由参数</h3> <p>资源 user/_id.vue</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div&gt;
+    查询详情 {{this.$route.params.id}}
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  transition: 'test',
+  mounted() {
+    console.info(this.$route)
+  },
+}
+&lt;/script&gt;
+
+&lt;style&gt;
+
+&lt;/style&gt;
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h3 id="跳转"><a href="#跳转" class="header-anchor">#</a> 跳转</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>getDetails(id, item) {
+   this.$router.push({
+      path: `/new/${id}`
+   })
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="插件"><a href="#插件" class="header-anchor">#</a> 插件</h2> <blockquote><p>Nuxt.js 允许您在运行 Vue.js 应用程序之前执行 js 插件。</p></blockquote> <p>假如我们想使用 vue-notifications 显示应用的通知信息，我们需要在程序运行前配置好这个插件。
+<strong>首先增加文件 plugins/vue-notifications.js：</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>import Vue from 'vue'
+import VueNotifications from 'vue-notifications'
+
+Vue.use(VueNotifications)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>然后, 在 nuxt.config.js 内配置 plugins 如下：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>module.exports = {
+  plugins: ['~/plugins/vue-notifications']
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="模块"><a href="#模块" class="header-anchor">#</a> 模块</h2> <blockquote><p>模块是 Nuxt.js 扩展，可以扩展其核心功能并添加无限的集成。
+<strong>模块只是在引导 Nuxt 时按顺序调用的函数。 框架在加载之前等待每个模块完成。 如此，模块几乎可以自定义 Nuxt 的任何地方。 我们可以使用功能强大的 Hookable Nuxt.js 系统来完成特定事件的任务。</strong></p></blockquote> <p><strong>modules/simple.js</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>export default function SimpleModule(moduleOptions) {
+  // Write your code here
+}
+// REQUIRED if publishing as an npm package
+// module.exports.meta = require('./package.json')
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>this.nuxt 这是对当前 Nuxt 实例的引用。
+...</li></ul> <p>*<strong>*nuxt</strong>.config.js**</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>export default {
+  modules: [
+    // Simple usage
+    '~/modules/simple',
+      // Passing options directly
+    ['~/modules/simple', { token: '123' }]
+  ]
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p><strong>在指定钩子上运行任务</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>export default function () {
+  // Add hook for modules
+  this.nuxt.hook('module', moduleContainer =&gt; {
+    // This will be called when all modules finished loading
+  })
+
+  // Add hook for renderer
+  this.nuxt.hook('renderer', renderer =&gt; {
+    // This will be called when renderer was created
+  })
+
+  // Add hook for build
+  this.nuxt.hook('build', async builder =&gt; {
+    // This will be called once when builder created
+
+    // We can even register internal hooks here
+    builder.hook('compile', ({ compiler }) =&gt; {
+      // This will be run just before webpack compiler starts
+    })
+  })
+
+  // Add hook for generate
+  this.nuxt.hook('generate', async generator =&gt; {
+    // This will be called when a Nuxt generate starts
+  })
+  this.nuxt.hook(&quot;ready&quot;, async (nuxt) =&gt; {
+    console.log(nuxt, &quot; ready&quot;);
+    // Your custom code here
+  });
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div><h3 id="热更新"><a href="#热更新" class="header-anchor">#</a> 热更新</h3> <p>发现一个/webpack_hmr/client 请求
+<img src="https://img-blog.csdnimg.cn/20201222182031610.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxODU5MTE5,size_16,color_FFFFFF,t_70" alt="image">
+webpack 热更新需要向浏览器推送信息，一般都会想到 websocket，但是还有一种方式，叫做 Server-Sent Events（简称 SSE）。</p> <p>SSE 是 websocket 的一种轻型替代方案。
+和 websocket 有以下几点不同：</p> <ul><li>SSE 是使用 http 协议，而 websocket 是一种单独的协议</li> <li>SSE 是单向传输，只能服务端向客户端推送，websocket 是双向</li> <li>SSE 支持断点续传，websocket 需要自己实现</li> <li>SSE 支持发送自定义类型消息</li></ul> <h3 id="nuxt-generate-和-build-打包方式的区别"><a href="#nuxt-generate-和-build-打包方式的区别" class="header-anchor">#</a> Nuxt &quot;generate&quot;和&quot;<a href="https://blog.csdn.net/Tomwildboar/article/details/102745299" target="_blank" rel="noopener noreferrer">build<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>&quot;打包方式的区别</h3> <p><strong>&quot;generate&quot;和&quot;build&quot;打包方式主要有两个区别，文件的区别，和发布的区别</strong></p> <ul><li><p><strong>generate</strong></p> <ul><li>generate 打包用于将首页静态化（首页的 nuxt-link 也会被静态化），打包后生成 dist 文件夹（类似于 vue 一般性打包）。发布时，只需要将 dist 文件夹发布即可（同 vue 项目发布）
+<blockquote><p>需要注意：</p> <ul><li>当首页内容发生变化时，需要重新 generate 打包发布</li> <li>打包生成的文件仍需要容器（如 Nginx）部署方可正常访问</li> <li>打包过程中需要访问 API 后台获取数据</li></ul></blockquote></li></ul></li> <li><p><strong>build</strong></p> <ul><li>一般情况下，build 打包用的更多。build 打包生成的.nuxt 文件，发布时，需要拷贝 node_modules 等文件/文件夹，一般使用 nodejs 环境下的 pm2 运行发布
+<blockquote><p>需要注意：</p> <ul><li>build 模式下发包发布，发布时需要将.nuxt、static、node_modules 等文件夹，以及 package.json、nuxt.config.js 等文件拷贝出来，使用 pm2 启动运行发布</li></ul></blockquote></li></ul></li></ul> <h3 id="动态路由-2"><a href="#动态路由-2" class="header-anchor">#</a> 动态路由</h3> <h2 id="nuxt-流程总结"><a href="#nuxt-流程总结" class="header-anchor">#</a> nuxt 流程总结</h2> <p><img src="https://img-blog.csdnimg.cn/cc54918e78b040b39c9d1ec62e557662.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Y-q5qWg5ZaD,size_20,color_FFFFFF,t_70,g_se,x_16" alt="image"></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/yunie/pages/folder1/easyToUseLibraryOrSkills.html">
+        easyToUseLibraryOrSkills
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yunie/assets/js/app.c3f40dae.js" defer></script><script src="/yunie/assets/js/2.f9a2f6ad.js" defer></script><script src="/yunie/assets/js/11.febae0b0.js" defer></script>
+  </body>
+</html>
